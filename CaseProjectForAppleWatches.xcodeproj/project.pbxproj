@@ -16,6 +16,14 @@
 		02C30C7A2903B5E100B91CB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C30C792903B5E100B91CB9 /* ContentView.swift */; };
 		02C30C7C2903B5E100B91CB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C30C7B2903B5E100B91CB9 /* Assets.xcassets */; };
 		02C30C7F2903B5E100B91CB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C30C7E2903B5E100B91CB9 /* Preview Assets.xcassets */; };
+		02C30C8E2903EA9100B91CB9 /* BoxModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C30C8D2903EA9100B91CB9 /* BoxModel.swift */; };
+		02C30C902903EA9D00B91CB9 /* BoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C30C8F2903EA9D00B91CB9 /* BoxView.swift */; };
+		02C30C922903EAA700B91CB9 /* BoxViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C30C912903EAA700B91CB9 /* BoxViewModel.swift */; };
+		02C30C942903EAB700B91CB9 /* SGConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C30C932903EAB700B91CB9 /* SGConvenience.swift */; };
+		02C30C992903EB6100B91CB9 /* BoxModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C30C982903EB6100B91CB9 /* BoxModel.swift */; };
+		02C30C9B2903EB7E00B91CB9 /* BoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C30C9A2903EB7E00B91CB9 /* BoxView.swift */; };
+		02C30C9D2903EBA100B91CB9 /* BoxViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C30C9C2903EBA100B91CB9 /* BoxViewModel.swift */; };
+		02C30CA02903EBD500B91CB9 /* SGConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C30C9F2903EBD500B91CB9 /* SGConvenience.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,14 @@
 		02C30C792903B5E100B91CB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		02C30C7B2903B5E100B91CB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02C30C7E2903B5E100B91CB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02C30C8D2903EA9100B91CB9 /* BoxModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxModel.swift; sourceTree = "<group>"; };
+		02C30C8F2903EA9D00B91CB9 /* BoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxView.swift; sourceTree = "<group>"; };
+		02C30C912903EAA700B91CB9 /* BoxViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxViewModel.swift; sourceTree = "<group>"; };
+		02C30C932903EAB700B91CB9 /* SGConvenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGConvenience.swift; sourceTree = "<group>"; };
+		02C30C982903EB6100B91CB9 /* BoxModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxModel.swift; sourceTree = "<group>"; };
+		02C30C9A2903EB7E00B91CB9 /* BoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxView.swift; sourceTree = "<group>"; };
+		02C30C9C2903EBA100B91CB9 /* BoxViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxViewModel.swift; sourceTree = "<group>"; };
+		02C30C9F2903EBD500B91CB9 /* SGConvenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGConvenience.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +110,10 @@
 		02C30C642903B5E000B91CB9 /* CaseProjectForAppleWatches */ = {
 			isa = PBXGroup;
 			children = (
+				02C30C8C2903EA8000B91CB9 /* Models */,
+				02C30C8B2903EA7900B91CB9 /* Views */,
+				02C30C8A2903EA6C00B91CB9 /* ViewModels */,
+				02C30C892903EA6500B91CB9 /* Helpers */,
 				02C30C652903B5E000B91CB9 /* CaseProjectForAppleWatchesApp.swift */,
 				02C30C672903B5E000B91CB9 /* ContentView.swift */,
 				02C30C692903B5E100B91CB9 /* Assets.xcassets */,
@@ -113,6 +133,10 @@
 		02C30C762903B5E100B91CB9 /* CaseProjectForAppleWatches Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				02C30C9E2903EBAD00B91CB9 /* Helpers */,
+				02C30C972903EB4400B91CB9 /* Models */,
+				02C30C962903EB3F00B91CB9 /* Views */,
+				02C30C952903EB2E00B91CB9 /* ViewModels */,
 				02C30C772903B5E100B91CB9 /* CaseProjectForAppleWatchesApp.swift */,
 				02C30C792903B5E100B91CB9 /* ContentView.swift */,
 				02C30C7B2903B5E100B91CB9 /* Assets.xcassets */,
@@ -127,6 +151,70 @@
 				02C30C7E2903B5E100B91CB9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		02C30C892903EA6500B91CB9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				02C30C932903EAB700B91CB9 /* SGConvenience.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		02C30C8A2903EA6C00B91CB9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				02C30C912903EAA700B91CB9 /* BoxViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		02C30C8B2903EA7900B91CB9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				02C30C8F2903EA9D00B91CB9 /* BoxView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		02C30C8C2903EA8000B91CB9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				02C30C8D2903EA9100B91CB9 /* BoxModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		02C30C952903EB2E00B91CB9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				02C30C9C2903EBA100B91CB9 /* BoxViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		02C30C962903EB3F00B91CB9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				02C30C9A2903EB7E00B91CB9 /* BoxView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		02C30C972903EB4400B91CB9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				02C30C982903EB6100B91CB9 /* BoxModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		02C30C9E2903EBAD00B91CB9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				02C30C9F2903EBD500B91CB9 /* SGConvenience.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +319,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02C30C922903EAA700B91CB9 /* BoxViewModel.swift in Sources */,
+				02C30C902903EA9D00B91CB9 /* BoxView.swift in Sources */,
 				02C30C682903B5E000B91CB9 /* ContentView.swift in Sources */,
+				02C30C942903EAB700B91CB9 /* SGConvenience.swift in Sources */,
 				02C30C662903B5E000B91CB9 /* CaseProjectForAppleWatchesApp.swift in Sources */,
+				02C30C8E2903EA9100B91CB9 /* BoxModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +332,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02C30C9D2903EBA100B91CB9 /* BoxViewModel.swift in Sources */,
+				02C30C9B2903EB7E00B91CB9 /* BoxView.swift in Sources */,
 				02C30C7A2903B5E100B91CB9 /* ContentView.swift in Sources */,
+				02C30CA02903EBD500B91CB9 /* SGConvenience.swift in Sources */,
 				02C30C782903B5E100B91CB9 /* CaseProjectForAppleWatchesApp.swift in Sources */,
+				02C30C992903EB6100B91CB9 /* BoxModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +549,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Project.CaseProjectForAppleWatches;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -486,6 +585,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Project.CaseProjectForAppleWatches;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
